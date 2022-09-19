@@ -23,12 +23,3 @@ for i in range(guesses):
     break
     
  
-
-
-    
-
-
-
-
-
- 
