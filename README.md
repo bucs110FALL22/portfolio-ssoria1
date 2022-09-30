@@ -14,4 +14,4 @@ Preferred Name: Sergio Soria
 
 Discord username: SergioSoria248#8099
 
-REPL url: https://github.com/bucs110FALL22/portfolio-ssoria1
+REPL url: https://replit.com/join/shacxtkuis-sergiosoria2
