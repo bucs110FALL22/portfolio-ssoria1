@@ -19,7 +19,6 @@ flip = print(coin_flip)
 
 flip = 1
 while flip != coin_flip:
-  #Probability_coin = coin_flip
   if coin_flip == 'Heads':
     Tito.left(90)
     Tito.forward(50)
