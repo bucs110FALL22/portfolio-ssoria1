@@ -1,8 +1,6 @@
 import turtle
 import random
-
-heads = 0 
-tails = 0
+    
 
 window = turtle.Screen() 
 window.bgcolor('blue')
@@ -12,34 +10,28 @@ Tito.shape('turtle')
 
 Tito.setpos(0,0)
 
-coin_flip = random.choices(['Heads', 'Tails'], [5, 5])[0]
-flip = print(coin_flip)
+distance = 50
+angle = 90
+in_screen = True 
+
+while in_screen:
+  coin = random.randrange(0, 2)
+  if coin == 0:
+    Tito.left(angle)
+  else:
+    Tito.right(angle)
+  Tito.forward(distance)
+
+  turtle_Xaxis = Tito.xcor()
+  turtleY_Yaxis = Tito.ycor()
+
+  range_of_x = window.window_width()/2
+  range_of_y = window.window_height()/2
 
 
 
-flip = 1
-while flip != coin_flip:
-  if coin_flip == 'Heads':
-    Tito.left(90)
-    Tito.forward(50)
-    Tito.pendown()
-    break
-    flip = coin_flip + 1
-    
-   
-  elif coin_flip == 'Tails': 
-    Tito.right(90)
-    Tito.forward(50)
-    Tito.pendown()
-    break
-    flip = coin_flip + 1
-    
-    
-
-
-  
-
-
+  if abs(turtle_Xaxis) > range_of_x or abs(turtleY_Yaxis) > range_of_y:
+    in_screen = False
 
 
 window.exitonclick()
