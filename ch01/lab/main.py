@@ -1,2 +1,12 @@
-#In this first lab, we are going to make an easy codeabout putting a normal phrase.
-print("Hello Sergio")
+import pygame, sys
+from pygame.locals import QUIT
+
+pygame.init()
+DISPLAYSURF = pygame.display.set_mode((400, 300))
+pygame.display.set_caption('Hello Sergio!')
+while True:
+    for event in pygame.event.get():
+        if event.type == QUIT:
+            pygame.quit()
+            sys.exit()
+    pygame.display.update()
