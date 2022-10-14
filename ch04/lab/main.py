@@ -75,7 +75,6 @@ elif P1 == P2:
 
 pygame.time.wait(11000)
 
-
 #
 #
 #
