@@ -19,3 +19,6 @@ numbersides = int(input("How many sides do you want create?:   "))
 side_length = int(input("What would be your side length?:      "))
 drawEqShape(numbersides, side_length)
 window.exitonclick()
+#
+#
+#
