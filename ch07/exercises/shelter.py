@@ -2,8 +2,6 @@ from datetime import datetime
 from time import gmtime, strftime
 import random 
 
-#identification = id("dog")
-#date = time.strftime("%x, %X, %y, %Y")
 
 #
 class Shelter:
@@ -11,7 +9,7 @@ class Shelter:
     self.name = name
     self.type = type
 
-  #def process(self):
+
 Animal_1 = Shelter('Scott', 'dog')
 date_arrived_one = datetime(2013, 4, 19, 10, 55, 23)
 date_adopted_one = datetime(2016, 7, 2, 14, 10, 47)
@@ -27,7 +25,6 @@ date_adopted_three = datetime(2021, 9, 18, 17, 2, 59)
 
 
 def main():
-  #process()
   print("Name:", Animal_1.name,  "Type:", Animal_1.type)
   Animal_1_ID = print("ID: ", id(Animal_1))
   Animal_1_arrived = print("Date Arrived: ", date_arrived_one.strftime('%Y/%m/%d'))
@@ -46,5 +43,3 @@ def main():
   
 main()
 
-
-  
