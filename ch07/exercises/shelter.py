@@ -1,8 +1,8 @@
 from datetime import datetime
 from time import gmtime, strftime
 import random 
-
-
+#
+#
 #
 class Shelter:
   def __init__(self, name, type):
