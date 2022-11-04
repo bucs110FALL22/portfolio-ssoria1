@@ -1,5 +1,6 @@
-
-
+#
+#
+#
 class Rectangle:
   def __init__(self, x, y, h, w):
     self.x = max(0, x)
